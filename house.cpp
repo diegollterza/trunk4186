@@ -411,6 +411,7 @@ TransferItem* TransferItem::createTransferItem(House* house)
 
 bool TransferItem::onTradeEvent(TradeEvents_t event, Player* owner, Player* seller)
 {
+	seller = seller;
 	switch(event)
 	{
 		case ON_TRADE_TRANSFER:
